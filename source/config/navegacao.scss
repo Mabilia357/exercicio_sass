@@ -1,0 +1,15 @@
+@use 'variaveis';
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: variaveis.$menuItemMargin;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

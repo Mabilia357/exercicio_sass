@@ -1,0 +1,13 @@
+@use 'reset';
+@use 'section';
+@use 'variaveis';
+@use 'listas';
+@use 'layout';
+@use 'produtos';
+@use 'navegacao';
+@use 'responsivo';
+
+body {
+    background-color: variaveis.$backgroundColor;
+}
+
